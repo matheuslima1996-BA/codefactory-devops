@@ -86,6 +86,7 @@ docker compose up --build
 | GET    | `/tasks`                 | Lista todas as tarefas            |
 | POST   | `/tasks`                 | Cria uma nova tarefa              |
 | PATCH  | `/tasks/<id>/done`       | Marca uma tarefa como concluída   |
+| GET    | `/tasks/<id>`            | Retorna uma tarefa específica     |
 
 ## Fluxo de branches
 - `main` — código estável, pronto para produção.
